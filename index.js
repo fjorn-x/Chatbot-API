@@ -5,7 +5,7 @@ const chatbotRouter = require("./routes/chatbots");
 const conversationsRouter = require("./routes/conversations");
 const endusersRouter = require("./routes/endusers");
 
-sequelize.sync({force: true}).then(() => console.log("db is ready"));
+sequelize.sync().then(() => console.log("db is ready"));
 
 const app = express();
 app.use(express.json());
