@@ -9,7 +9,6 @@
 
 ## Getting Started
 
-Provide instructions on how to set up and run your project.
 
 ### Prerequisites
 
